@@ -5,7 +5,7 @@ from google import genai
 
 load_dotenv()
 client = genai.Client()
-MODEL = "gemini-3.5-flash-lite"
+MODEL = "gemini-3.1-flash-lite"
 
 # The haystack: 3,000 real customer messages joined together
 url = "https://raw.githubusercontent.com/PolyAI-LDN/task-specific-datasets/master/banking_data/train.csv"
